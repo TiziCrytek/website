@@ -1,0 +1,30 @@
+<div class="bg-black text-white p-8 font-sans uppercase tracking-tighter">
+  <div class="flex justify-between border-b-2 border-pink-500 pb-2 mb-6 text-xs font-mono">
+    <span>SYSTEM_STATUS: ACTIVE</span>
+    <span>COORD: 45.92.11.0</span>
+  </div>
+
+  <div class="grid grid-cols-12 gap-4">
+    <div class="col-span-8">
+      <h1 class="text-7xl font-black leading-none italic">
+        RUNNER <span class="text-pink-500">01</span>
+      </h1>
+      <p class="mt-4 max-w-xs text-sm border-l-4 border-yellow-400 pl-4 uppercase">
+        Вход в зону исключения разрешен. Синхронизация нейросети завершена на 98.4%.
+      </p>
+    </div>
+
+    <div class="col-span-4 border-2 border-white p-4 flex flex-col justify-between">
+      <div class="bg-yellow-400 h-12 w-full"></div>
+      <div class="text-[10px] leading-tight">
+        [ DATA_CORRUPTION_DETECTED ]<br>
+        [ REBOOTING_SEQUENCE... ]
+      </div>
+    </div>
+  </div>
+
+  <button class="mt-10 group relative px-8 py-4 bg-white text-black font-bold text-xl hover:bg-pink-500 hover:text-white transition-all">
+    НАЧАТЬ ВЫЛАЗКУ
+    <span class="absolute -bottom-1 -right-1 w-full h-full border-r-2 border-b-2 border-pink-500 group-hover:border-white"></span>
+  </button>
+</div>
